@@ -1,0 +1,628 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1682828517823088, "dur": 2493586, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682828517823318, "dur": 34204, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682828517857524, "dur": 35067, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682828517892593, "dur": 1283345, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682828519175940, "dur": 1139624, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682828520315565, "dur": 1108, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682828520317053, "dur": 11, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1682828518539845, "dur": 626033, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682828518540674, "dur": 34973, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682828518649648, "dur": 506989, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682828519156643, "dur": 9228, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682828519157375, "dur": 7801, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682828519169330, "dur": 1006, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682828519168709, "dur": 1647, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682828520317146, "dur": 201, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1682828519207620, "dur":2705, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828519210331, "dur":55, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1682828519210415, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1682828519210429, "dur":344, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1682828519210791, "dur":544, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828519211335, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306548, "dur":89, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306637, "dur":152, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306789, "dur":72, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306861, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306867, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306869, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306873, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306874, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306878, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306879, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306882, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306883, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306887, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306888, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306892, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306893, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306897, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306898, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306902, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306903, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306906, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306907, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306911, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306912, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306917, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306918, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306921, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306922, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306926, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306927, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306930, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306931, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306936, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306952, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520306969, "dur":1525, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1682828519210955, "dur":384, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682828519211341, "dur":3119, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682828519214468, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682828519214475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682828519215400, "dur":14212, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682828519229617, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682828519229678, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682828519229847, "dur":1807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682828519231655, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1682828519231682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682828519232585, "dur":191258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1682828519423868, "dur":1166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682828519425036, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682828519425042, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682828519426371, "dur":14797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682828519441173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682828519441182, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682828519442184, "dur":34665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682828519476852, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682828519476860, "dur":14399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682828519491311, "dur":23248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682828519514563, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682828519514571, "dur":17360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682828519531977, "dur":97542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682828519629524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682828519629534, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682828519631087, "dur":137568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682828519768662, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682828519768675, "dur":2543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682828519771262, "dur":202928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682828519974195, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682828519974204, "dur":5478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682828519979715, "dur":326832, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519211013, "dur":338, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519211351, "dur":3123, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519214474, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1682828519214575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519230973, "dur":47299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1682828519278291, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1682828519278323, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519278544, "dur":77774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1682828519356339, "dur":36196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682828519392555, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519392561, "dur":904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682828519393512, "dur":14780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682828519408296, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519408303, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682828519409518, "dur":28969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682828519438491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519438500, "dur":908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682828519439447, "dur":43617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682828519483070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519483079, "dur":18490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682828519501614, "dur":55702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682828519557320, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519557330, "dur":3846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682828519561222, "dur":24265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682828519585491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519585499, "dur":2699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682828519588245, "dur":5972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682828519594222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519594231, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682828519595194, "dur":6516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682828519601716, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519601726, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682828519602874, "dur":103735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682828519706615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519706626, "dur":10978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682828519717653, "dur":117515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682828519835176, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519835188, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682828519836709, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1682828519836758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519836764, "dur":2714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1682828519839527, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":2, "ts":1682828519839583, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519839611, "dur":3047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":2, "ts":1682828519842703, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1682828519842755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519842762, "dur":2441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1682828519845252, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1682828519845309, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519845315, "dur":3172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1682828519848521, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1682828519848650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519848777, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1682828519850518, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1682828519850605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519850616, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1682828519852716, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1682828519852756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519852763, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1682828519854113, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1682828519854152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519854157, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1682828519855295, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1682828519855331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519855336, "dur":1873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1682828519857251, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1682828519857295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682828519857300, "dur":3584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1682828519860933, "dur":445609, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682828519210974, "dur":369, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682828519211343, "dur":3121, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682828519214467, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1682828519214563, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682828519230436, "dur":26881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1682828519257329, "dur":21075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut.exe" }}
+,{ "pid":12345, "tid":3, "ts":1682828519278407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682828519278412, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut.exe" }}
+,{ "pid":12345, "tid":3, "ts":1682828519279375, "dur":65257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682828519344636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682828519344644, "dur":1754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682828519346442, "dur":127021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682828519473466, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682828519473473, "dur":1843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682828519475358, "dur":26807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682828519502168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682828519502173, "dur":30111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682828519532320, "dur":28958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682828519561371, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682828519561381, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682828519562336, "dur":62853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682828519625195, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682828519625205, "dur":1741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682828519626980, "dur":170535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682828519797518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682828519797527, "dur":1143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682828519798711, "dur":100830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682828519899545, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682828519899555, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682828519900445, "dur":406117, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682828519211004, "dur":343, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682828519211347, "dur":3115, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682828519214469, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1682828519214566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682828519231305, "dur":67516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1682828519298833, "dur":35462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682828519334298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682828519334305, "dur":835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682828519335182, "dur":14456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682828519349642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682828519349651, "dur":6371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682828519356078, "dur":15779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682828519371863, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682828519371872, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682828519372882, "dur":35603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682828519408488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682828519408494, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682828519409807, "dur":14442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682828519424253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682828519424259, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682828519426013, "dur":1162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682828519427179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682828519427186, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682828519428235, "dur":47661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682828519475899, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682828519475908, "dur":1023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682828519476991, "dur":24735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682828519501729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682828519501738, "dur":35343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682828519537128, "dur":32713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682828519569844, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682828519569850, "dur":11862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682828519581781, "dur":36758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682828519618544, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682828519618553, "dur":907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682828519619493, "dur":233974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682828519853471, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682828519853479, "dur":3514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682828519857034, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1682828519857087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682828519857095, "dur":3899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1682828519861039, "dur":445502, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682828519211034, "dur":320, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682828519211354, "dur":3112, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682828519214468, "dur":72091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1682828519286562, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682828519286642, "dur":15821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1682828519302479, "dur":12163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682828519314645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682828519314692, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682828519316064, "dur":16225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682828519332294, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682828519332305, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682828519333349, "dur":14744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682828519348097, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682828519348107, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682828519349028, "dur":148573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682828519497606, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682828519497614, "dur":34069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682828519531744, "dur":19182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682828519550929, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682828519550936, "dur":10019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682828519561086, "dur":59800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682828519620890, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682828519620897, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682828519622160, "dur":90564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682828519712728, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682828519712735, "dur":5005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682828519717781, "dur":111108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682828519828895, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682828519828905, "dur":1355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682828519830300, "dur":782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1682828519831086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682828519831904, "dur":4453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1682828519836407, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1682828519836456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682828519836540, "dur":3015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1682828519839597, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1682828519839638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682828519839643, "dur":2958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1682828519842647, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1682828519842695, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682828519842701, "dur":4585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1682828519847328, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1682828519847369, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682828519847375, "dur":3025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1682828519850446, "dur":7478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1682828519857927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682828519857933, "dur":3445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1682828519861417, "dur":445126, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682828519211051, "dur":306, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682828519211357, "dur":3106, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682828519214468, "dur":72288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1682828519286759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682828519286771, "dur":16038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1682828519302830, "dur":25389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519328224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682828519328231, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519329435, "dur":13833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519343278, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682828519343289, "dur":1023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519344353, "dur":32749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519377107, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682828519377117, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519378185, "dur":13529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519391720, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682828519391730, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519392718, "dur":26630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519419350, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682828519419356, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519420222, "dur":38883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519459108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682828519459137, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519460188, "dur":17482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519477673, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682828519477679, "dur":23883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519501620, "dur":28139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519529763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682828519529769, "dur":7931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519537740, "dur":31829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519569574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682828519569584, "dur":11957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519581590, "dur":28145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519609741, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682828519609752, "dur":5176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519614977, "dur":37197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519652180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682828519652190, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519653199, "dur":90364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519743568, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682828519743578, "dur":17134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519760754, "dur":100121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519860879, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682828519860890, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682828519862046, "dur":444520, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682828519211079, "dur":281, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682828519211360, "dur":3121, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682828519214482, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1682828519214564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682828519230947, "dur":10136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1682828519241095, "dur":313238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682828519554337, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682828519560563, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682828519561960, "dur":10943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682828519572910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682828519572921, "dur":9092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682828519582054, "dur":4167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682828519586248, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682828519586256, "dur":2027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682828519588322, "dur":9090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682828519597417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682828519597426, "dur":5399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682828519602869, "dur":6865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682828519609741, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682828519609752, "dur":5242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682828519615036, "dur":99145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682828519714183, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682828519714188, "dur":2602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682828519716834, "dur":42805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682828519759643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682828519759651, "dur":1669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682828519761356, "dur":268528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682828520029888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682828520029896, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682828520031891, "dur":274653, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682828519211102, "dur":261, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682828519211364, "dur":3104, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682828519214469, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1682828519214594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682828519231591, "dur":6621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1682828519238228, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1682828519238256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682828519238262, "dur":17791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1682828519256069, "dur":669180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1682828519925253, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682828519925260, "dur":1457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1682828519926734, "dur":379818, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682828519211124, "dur":242, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682828519211366, "dur":3109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682828519214477, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1682828519214622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682828519231545, "dur":8372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1682828519239931, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1682828519239957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682828519239962, "dur":12476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1682828519252457, "dur":1042368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682828520294829, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682828520294835, "dur":11651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682828520306507, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1682828520306509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682828519211148, "dur":221, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682828519211369, "dur":3092, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682828519214467, "dur":83539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1682828519298008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682828519302655, "dur":772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1682828519303437, "dur":16937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682828519320380, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682828519320391, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682828519321440, "dur":13843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682828519335286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682828519335311, "dur":1844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682828519337194, "dur":12853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682828519350050, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682828519350057, "dur":6212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682828519356313, "dur":26443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682828519382762, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682828519382772, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682828519384074, "dur":41354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682828519425431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682828519425437, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682828519426625, "dur":34119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682828519460747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682828519460756, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682828519462425, "dur":27655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682828519490087, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682828519490097, "dur":25164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682828519515311, "dur":30552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682828519545869, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682828519545879, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682828519546903, "dur":151513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682828519698422, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682828519698432, "dur":16626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682828519715092, "dur":180276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682828519895370, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682828519895376, "dur":2177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682828519897584, "dur":408973, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682828519211179, "dur":194, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682828519211373, "dur":3097, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682828519214472, "dur":68504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1682828519282981, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682828519283087, "dur":14457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1682828519297558, "dur":37644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519335206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682828519335213, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519336993, "dur":58171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519395168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682828519395175, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519396371, "dur":13177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519409552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682828519409558, "dur":834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519410427, "dur":13767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519424198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682828519424208, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519425781, "dur":19528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519445315, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682828519445326, "dur":1055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519446424, "dur":62309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519508738, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682828519508746, "dur":23213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519532005, "dur":18598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519550607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682828519550613, "dur":10712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519561374, "dur":81155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519642536, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682828519642546, "dur":5602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519648190, "dur":73396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519721591, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682828519721600, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519722674, "dur":34302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519756980, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682828519756988, "dur":3956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519760989, "dur":32763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519793757, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682828519793766, "dur":3189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519797000, "dur":144702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519941707, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682828519941715, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682828519942619, "dur":363930, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682828519211200, "dur":177, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682828519211377, "dur":3093, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682828519214472, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1682828519214596, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682828519230962, "dur":158799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1682828519389785, "dur":46574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682828519436365, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682828519436376, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682828519437833, "dur":15858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682828519453698, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682828519453707, "dur":1546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682828519455295, "dur":17837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682828519473138, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682828519473148, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682828519474503, "dur":75221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682828519549730, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682828519549741, "dur":10977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682828519560777, "dur":35106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682828519595886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682828519595895, "dur":6548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682828519602483, "dur":32125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682828519634613, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682828519634623, "dur":2787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682828519637454, "dur":78014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682828519715472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682828519715478, "dur":2584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682828519718108, "dur":126641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682828519844757, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682828519844767, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682828519846021, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1682828519846070, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682828519846076, "dur":5355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1682828519851471, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1682828519851518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682828519851526, "dur":2607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1682828519854181, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1682828519854231, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682828519854235, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1682828519855364, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1682828519855428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682828519855432, "dur":1849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1682828519857319, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1682828519857503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682828519857508, "dur":3877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1682828519861421, "dur":445148, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682828519211216, "dur":164, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682828519211380, "dur":3105, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682828519214485, "dur":64330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1682828519278818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682828519278832, "dur":17897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1682828519296748, "dur":18024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682828519314777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682828519314786, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682828519316282, "dur":17630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682828519333916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682828519333924, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682828519334806, "dur":58418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682828519393227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682828519393234, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682828519394585, "dur":15530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682828519410117, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682828519410137, "dur":810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682828519410981, "dur":1210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682828519412194, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682828519412199, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682828519412961, "dur":102810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682828519515773, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682828519515780, "dur":21727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682828519537551, "dur":53153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682828519590709, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682828519590718, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682828519591812, "dur":28778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682828519620594, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682828519620603, "dur":1200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682828519621843, "dur":61761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682828519683608, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682828519683637, "dur":1029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682828519684705, "dur":199542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682828519884251, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682828519884261, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682828519885491, "dur":421067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682828519211234, "dur":149, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682828519211383, "dur":3084, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682828519214471, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1682828519214566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682828519230529, "dur":49054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1682828519279601, "dur":34634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519314241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682828519314487, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519315911, "dur":94670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519410584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682828519410589, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519412234, "dur":1162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519413399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682828519413406, "dur":821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519414264, "dur":1395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519415663, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682828519415672, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519417344, "dur":1439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519418787, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682828519418796, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519419784, "dur":72578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519492366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682828519492376, "dur":23353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519515770, "dur":27344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519543141, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682828519543151, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519544161, "dur":41008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519585175, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682828519585185, "dur":2586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519587818, "dur":55254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519643075, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682828519643082, "dur":5539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519648661, "dur":30803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519679470, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682828519679480, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519681008, "dur":28441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519709452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682828519709460, "dur":7325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519716827, "dur":166606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519883439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682828519883472, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682828519885320, "dur":421234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682828519211253, "dur":133, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682828519211386, "dur":3092, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682828519214479, "dur":27893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1682828519242374, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682828519242405, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1682828519244666, "dur":715338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682828519960009, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682828519960089, "dur":2869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682828519962976, "dur":343572, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682828519211276, "dur":114, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682828519211390, "dur":3082, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682828519214473, "dur":68766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1682828519283241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682828519283252, "dur":14287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1682828519297552, "dur":37847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682828519335402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682828519335408, "dur":1850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682828519337300, "dur":27961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682828519365267, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682828519365277, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682828519366266, "dur":92402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682828519458674, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682828519458701, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682828519459860, "dur":20770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682828519480650, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682828519480658, "dur":20899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682828519501609, "dur":24319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682828519525932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682828519525939, "dur":11613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682828519537597, "dur":22525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682828519560128, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682828519560137, "dur":1441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682828519561622, "dur":229715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682828519791342, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682828519791352, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682828519792525, "dur":101560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682828519894090, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682828519894099, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/VikingLuen/Documents/vj/Zelda-like Tut_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682828519895094, "dur":411461, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682828520310228, "dur":1454, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1682828520317406, "dur": 689, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682828520317042, "dur": 1072, "ph": "X", "name": "Write chrome-trace events", "args": {} },
